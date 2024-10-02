@@ -104,6 +104,8 @@ List comprehensions are concise and often more readable than traditional loops f
 ### Blank Lines
 
 * In python scripts, top-level functions and classes are separated by two lines. Method definitions inside classes should be separated by one blank line.
+* Blank lines may be omitted between a bunch of related one-liners.
+* Use blank lines in functions, sparingly to indicate logical sections.
 
 ```python
 import unittest
@@ -152,5 +154,26 @@ income = (gross_wages
           - ira_deduction
           - student_loan_interest)
 ```
+
+### Imports
+* Imports should usually be on separate lines:
+
+```python
+# Correct:
+import os
+import sys
+```
+* It's okay to say this though:
   
+```python
+# Correct:
+from subprocess import Popen, PIPE
+```
+* Imports are always put at the top of the file, just after any module comments and docstring, and before module globals and constants.
   
+* Imports should be grouped in the following order:
+    1. Standard library imports
+    2. Related third party imports
+    3. Local application imports
+
+* You should put a line between each group of imports.
