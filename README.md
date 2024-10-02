@@ -50,19 +50,27 @@ List comprehensions are concise and often more readable than traditional loops f
 
   Leverage efficient libraries and functions from the python standard Library or third party libraries when applicable. avoid reinventing the wheel.
 
-### 6. Version Control:
+### 6. Profile and Optimize:
+
+  Use profilling tools to identify bottlenecks in your code. Optimize critical sections if needed, but focus on readability unless performance is a critical concern
+
+### 7. Error Handling:
+
+  Implement proper error handling to make your code robust. Use try-except blocks to catch and handle exceptions gracefully.
+
+### 8. Version Control:
 
   Use version control systems like Git to track changes and collaborate with others.
 
-### 7 Testing:
+### 9. Testing:
 
   Write unit test for your code. Automated tests help catch errors early and provide a safety net for [refactoring](https://www.freecodecamp.org/news/best-practices-for-refactoring-code/).
 
-### 8. Readability Matters:
+### 10. Readability Matters:
 
   Prioritize code readability over cleverness. Write code so that others (or future you can understand it easily).
 
-### 9. Continuous Learning:
+### 11. Continuous Learning:
 
   Stay updated with best practises, new language features, and community guidelines. Continuous learning helps improve your coding skills.
   
