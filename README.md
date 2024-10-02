@@ -177,3 +177,35 @@ from subprocess import Popen, PIPE
     3. Local application imports
 
 * You should put a line between each group of imports.
+
+### Whitespace in Expressions and Statements
+
+Avoid extraneous whitespace in the following situations:
+
+* Immediately inside paretheses, brackets or braces:
+```python
+# Correct:
+spam(ham[1], {eggs: 2})
+```
+
+* Between a trailing comma and a following close parenthesis:
+```python
+# Correct:
+foo = (0,) # Tuple with a single element
+```
+
+* Immediately before a comma, semicolon, or colon:
+```python
+# Correct:
+if x == 4: print(x, y); x, y = y, x
+```
+
+* However, in a slice the colon acts like a binary operator and should have equal amounts on either side. In an extended slice, both colons must have the same amount of spaces applied. Exception: When a slice parameter is omitted, the space should be omitted:
+```python
+# Correct:
+ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:]
+ham[lower:upper], ham[lower:upper:], ham[lower::step]
+ham[lower+offset : upper+offset]
+ham[: upper_fn(x) : step_fn(x)], ham[:: step_fn(x)]
+ham[lower + offset : upper + offset]
+```
