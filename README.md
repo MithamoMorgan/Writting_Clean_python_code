@@ -105,7 +105,7 @@ List comprehensions are concise and often more readable than traditional loops f
 
 * In python scripts, top-level functions and classes are separated by two lines. Method definitions inside classes should be separated by one blank line.
 
-  ```python
+```python
   import unittest
 
 class SwapTestSuite(unittest.TestCase):
