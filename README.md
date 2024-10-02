@@ -90,5 +90,9 @@ List comprehensions are concise and often more readable than traditional loops f
       "shiva"
   ]
   ```
+  ```python
+  def square_of_number(
+      num1, num2,
+      num3, num4):
   
   
