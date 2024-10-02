@@ -139,5 +139,18 @@ class OddOrEvenTestSuite(unittest.TestCase):
         self.assertEqual(message1, 'Odd')
         self.assertEqual(message2, 'Even')
 ```
+
+### Should a Line Break Before or After a Binary Operator?
+
+* In python code, it is permissible to break before or after a binary operator, as long as the convention is consistent locally. However, following the tradition from mathematics, breaking before a binary operation provides a more readable code.
+
+```python
+# easy to match operators with operands
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+          - ira_deduction
+          - student_loan_interest)
+```
   
   
