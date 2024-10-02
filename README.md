@@ -75,5 +75,20 @@ List comprehensions are concise and often more readable than traditional loops f
 ### 11. Continuous Learning:
 
   Stay updated with best practises, new language features, and community guidelines. Continuous learning helps improve your coding skills.
+
+## PEP 8 Summary:
+
+### Indentation
+
+* The recommendation is to use 4 spaces for indentation
+
+* When you write a big expression, it is best to keep the expression vertically aligned. When you do this you will create a "hanging indent"
+  ```python
+  list_of_people = [
+      "Rama"
+      "John"
+      "shiva"
+  ]
+  ```
   
   
