@@ -94,5 +94,11 @@ List comprehensions are concise and often more readable than traditional loops f
   def square_of_number(
       num1, num2,
       num3, num4):
+  ```
+  * Generally, spaces are the preferred indentation means
+ 
+  ### Maximum Line Length
+
+  * Generally, it's good to aim for a line of 79 characters in your python code. By doing this it is possible to open files side by side to compare. You can also view the whole expression without scrolling horizontally, which adds to better readability and understanding the code.
   
   
