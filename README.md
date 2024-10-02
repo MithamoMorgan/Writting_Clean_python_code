@@ -235,3 +235,22 @@ def munge() -> PosInt: ...
 ```
 
 ### Comments
+
+* Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter.
+* You should use one or two spaces after a sentence-ending period in multi-sentence comments, except after the final sentence.
+```python
+# This is the first sentence.  This is the second sentence. This is the final sentence.
+```
+*Ensure that your comments are clear and easily understandable to other speakers of the language you are writing in.
+* Paragraphs inside a block comment are separated bu a line containing #.
+```python
+"""
+This is the first paragraph of the comment.
+It explains what the following code does.
+
+# 
+
+This is the second paragraph.
+It provides additional details or context.
+"""
+```
