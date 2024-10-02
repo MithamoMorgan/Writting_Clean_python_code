@@ -22,7 +22,7 @@ However, know when to be consistent, sometimes a style guide recommendations jus
 
 ### 4. Comments and Documentation:
 
-  Add comments when necessary, but strive to write self-explanatory code. Document your code, especially for complex functions or projects, using [docstrings](https://www.geeksforgeeks.org/python-docstrings/)
+  Add comments when necessary (sparingly), but strive to write self-explanatory code. Document your code, especially for complex functions or projects, using [docstrings](https://www.geeksforgeeks.org/python-docstrings/)
 
 ### 5. Whitespace and Formatting:
 
@@ -57,5 +57,13 @@ List comprehensions are concise and often more readable than traditional loops f
 ### 7 Testing:
 
   Write unit test for your code. Automated tests help catch errors early and provide a safety net for [refactoring](https://www.freecodecamp.org/news/best-practices-for-refactoring-code/).
+
+### 8. Readability Matters:
+
+  Prioritize code readability over cleverness. Write code so that others (or future you can understand it easily).
+
+### 9. Continuous Learning:
+
+  Stay updated with best practises, new language features, and community guidelines. Continuous learning helps improve your coding skills.
   
   
