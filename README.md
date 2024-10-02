@@ -1,3 +1,5 @@
+![](https://miro.medium.com/v2/format:webp/1*hicFMnjJf8GyP0sleHrTbA.png)
+
 ## Introduction
 
 I have observed that significant portion of my working time is spent waiting for my code to finish running. Additionally, I've noticed that many works are challenging to understand due to lack of explanation. I believe that writing efficient python code can help reduce runtime and save computational resources, ultimately freeing more meaningful tasks as a Data Scientist.
