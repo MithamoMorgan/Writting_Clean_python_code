@@ -9,4 +9,5 @@ However, know when to be consistent, sometimes a style guide recommendations jus
 ## General Tips for Clean code:
 
 ### 1. Follow PEP 8:
-    Adhere to pythons style guide, PEP 8. It covers conventions for naming, identation, and other aspects of writting clean and readable code.
+  Adhere to pythons style guide, PEP 8. It covers conventions for naming, identation, and other aspects of writting clean and readable code. Check out the official website [pep 8 - style Guide for python code](https://peps.python.org/pep-0008/)
+  
