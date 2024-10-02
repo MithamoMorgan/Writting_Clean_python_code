@@ -199,8 +199,7 @@ foo = (0,) # Tuple with a single element
 # Correct:
 if x == 4: print(x, y); x, y = y, x
 ```
-
-* However, in a slice the colon acts like a binary operator and should have equal amounts on either side. In an extended slice, both colons must have the same amount of spaces applied. Exception: When a slice parameter is omitted, the space should be omitted:
+However, in a slice the colon acts like a binary operator and should have equal amounts on either side. In an extended slice, both colons must have the same amount of spaces applied. Exception: When a slice parameter is omitted, the space should be omitted:
 ```python
 # Correct:
 ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:]
@@ -209,3 +208,30 @@ ham[lower+offset : upper+offset]
 ham[: upper_fn(x) : step_fn(x)], ham[:: step_fn(x)]
 ham[lower + offset : upper + offset]
 ```
+* More than one space around an assignment (or other) operator:
+```python
+# Correct:
+x = 1
+y = 2
+long_variable = 3
+```
+* Always surround these binary operators with a single space on either side: assignment (`=`), augmented assignment (`+=`, `-=` etc.), comparisons (`==`, `<`, `>`, `!=`, `<>`, `<=`, `>=`, `in`, `not in`, `is`, `is not`), Booleans (`and`, `or`, `not`).
+
+* If operators with different priorities are used, consider adding whitespace around the operators with the lowest priority(ies). Use your own judgment; however, never use more than one space, and always have the same amount of whitespace on both sides of a binary operator:
+```python
+# Correct:
+i = i + 1
+submitted += 1
+x = x*2 - 1
+hypot2 = x*x + y*y
+c = (a+b) * (a-b)
+```
+
+* Function annotations should use the normak rules for colons and always have spaces around the `->` arrow if present.
+```python
+# Correct:
+def munge(input: AnyStr): ...
+def munge() -> PosInt: ...
+```
+
+### Comments
