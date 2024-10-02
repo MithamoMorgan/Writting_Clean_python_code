@@ -37,5 +37,25 @@ List comprehensions are concise and often more readable than traditional loops f
 ### 2. Choose the Right Data Structures:
 
   Select the appropriate data structures for your needs. For example, use sets for membership testing, dictionaries for key-value pairs, etc.
+
+### 3. Generator Expressions:
+
+  Use [generator expressions](https://www.geeksforgeeks.org/generator-expressions/) when you don't need to store the entire result in memory.
+
+### 4. Avoid Unnecessary Variables:
+
+  Minimize the use of unnecessary variables. Sometimes, operations can be performed without storing intermediate results.
+
+### 5. Use Efficient Libraries:
+
+  Leverage efficient libraries and functions from the python standard Library or third party libraries when applicable. avoid reinventing the wheel.
+
+### 6. Version Control:
+
+  Use version control systems like Git to track changes and collaborate with others.
+
+### 7 Testing:
+
+  Write unit test for your code. Automated tests help catch errors early and provide a safety net for [refactoring](https://www.freecodecamp.org/news/best-practices-for-refactoring-code/).
   
   
